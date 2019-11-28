@@ -1,0 +1,258 @@
+<!-- 
+Name: Nur Suhaira Bte Badrul Hisham
+UOW ID: 5841549
+Assignment 2 Task 5
+-->
+
+<!DOCTYPE html>
+<html>
+	<head lang = "en">
+		<meta charset = "utf-8">
+		<title> ArtWork Creative Events Singapore </title>
+		<link rel = "stylesheet" href = "task5.css">
+		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		<script type = "text/JavaScript" src = "task5.js"></script>
+	</head>
+	<body>
+		<div class = "background">
+			<div class = "banner">
+				<img src = "images/banner.jpg" alt = "banner" height = "200" width = "1285">
+				<div class = "logo">
+					<img src = "images/logo.jpg" alt = "logo" height = "80" width = "120">
+					ArtWork Creative Events Singapore
+					<button id = "artbtn"> PEEK-A-BOO </button>
+				</div>
+			</div>	
+			<div class = "promo">
+				<button id = "promobtn"></button>
+				<button id = "arcbtn"></button>
+				<br>
+				<div class = "tooltip">
+					<br><u>EARLY BIRD TICKETS ARE SELLING AT 10% OFF!</u>
+					<span class = "tooltiptext"><br><i>Terms & conditions apply.</i></span>
+				</div>
+				<br><br><label><b><i>Promotion Date:</i></b></label><input type = "text" id = "datepicker">
+				<div id = "dialog">
+					<p> Summer Sale! Limited Time Only! <b>Extra 15%</b> Off All Sale Items! 
+						Use code <u>Axre45yt</u> !!!</p>
+				</div>
+			</div>
+			<ol id = "menu">
+				<b><u> MENU </u></b>
+ 				<li><div> Abstract </div>
+					<ul>
+					  <li><div> Animals </div></li>
+					  <li><div> Plants </div></li>
+					</ul>
+				</li>
+				<li><div> Patterns </div>
+					<ul>
+					  <li><div> Grid Making </div>
+						<ul>
+							<li><div> Black & White </div></li>
+							<li><div> Shapes </div></li>
+							<li><div> Architectural </div></li>
+						</ul>
+					  </li>
+					  <li><div> Templates </div></li>
+					  <li><div> Ceramic </div></li>
+					</ul>
+				</li>
+				<li><div> Sculp </div>
+					<ul>
+					  <li><div> Paint Workshop </div>
+						<ul>
+							<li><div> Acrylic </div></li>
+							<li><div> Water Color </div></li>
+							<li><div> Oil Painting </div></li>
+						</ul>
+					  </li>
+					  <li><div> Introduction on Tools </div></li>
+					  <li><div> Handworks </div></li>
+					</ul>
+				</li>
+			</ol>
+			<table>
+				<tr>
+					<td colspan = 4>
+						What effect would you like?
+						<select name = "effects" id = "etype">
+							<option value = "blind"> Blind </option>
+							<option value = "bounce"> Bounce </option>
+							<option value= "clip"> Clip </option>
+							<option value = "drop"> Drop </option>
+							<option value = "explode"> Explode </option>
+							<option value = "fade"> Fade </option>
+							<option value = "fold"> Fold </option>
+							<option value = "puff"> Puff </option>
+							<option value = "pulsate"> Pulsate </option>
+							<option value = "shake"> Shake </option>
+							<option value = "slide"> Slide </option>
+						</select>
+						<button id = "effbtn"></button>
+					</td>
+				</tr>
+				<tr>
+					<td colspan = 4>
+						<button id = "thbtn"> CHANGE HEADERS </button>
+					</td>
+				</tr>
+				<tr>
+					<th colspan = 4><b> TOP EVENT SELLERS </b>
+					</th>
+				</tr>
+				<tr>
+					<td>
+						<figure>
+							<img src = "images/event1.jpg" alt = "Stacking Art"/>
+						</figure>
+						<div id = "tabs">
+							<ul>
+								<li><a href = "#tab1"> Collaboration </a></li>
+								<li><a href = "#tab2"> Expression </a></li>
+							</ul>
+							<div id = "tab1">
+								This project further explores the collaboration between the two artists and computer 
+								based image algorithms to create an aesthetic. In this show, the inspiration was simplification. 
+								The exhibit features a limited edition series of hand screened prints simplified by algorithm 
+								and created by Jen Lu and Tim Nolan as well as a short run of wearable art and a single channel 
+								video installation and soundscape.
+							</div>
+							<div id = "tab2">
+								My sculpture exposes the depraved side of human nature. 
+								Voiceless, headless and dejected figures serve as indignant 
+								messengers for a narrative about the loss of innocence, trust 
+								and power. Ironic humor contradicts the serious undertone of the 
+								content as physical interaction with certain pieces reveals their 
+								audacious nature.
+							</div>
+						</div>
+					</td>
+					<td>
+						<figure id = "tog1">
+							<img src = "images/event2.jpg" alt = "Abstract"/>
+						</figure>
+						<button id = "exbtn"></button>
+					</td>
+					<td>
+						<button id = "pulbtn"></button>
+						<figure id = "tog2">
+							<img src = "images/event3.jpg" alt = "The Alchemist"/>
+						</figure>
+					</td>
+					<td>
+						<figure id = "tog3">
+							<img src = "images/event4.jpg" alt = "Macrame' Making"/>
+						</figure>
+						<button id = "bouncebtn"></button>
+					</td>
+				</tr>
+				<tr>
+					<th colspan = 4><b> POPULAR EVENT SERIES</b></th>
+				</tr>
+				<tr>
+					<td>
+					<button id = "shakebtn"></button>
+						<figure id = "tog4">
+							<img src = "images/event5.jpg" alt = "Paint Own Ceramic Tiles"/>
+						</figure>
+						
+					</td>
+					<td>
+						<figure>
+							<img src = "images/event6.jpg" alt = "Crochet for Beginners"/>
+						</figure>
+						<div id = "tabs2">
+							<ul>
+								<li><a href = "#tab3"> Relationship </a></li>
+								<li><a href = "#tab4"> Cachemonet </a></li>
+							</ul>
+							<div id = "tab3">
+								This piece explores the relationship between the individual and 
+								their place in time. Ideas of eternal recurrence and reincarnation 
+								are suggested.
+							</div>
+							<div id = "tab4">
+								Cachemonet is an exploration into the serendipitous collisions 
+								that occur between two randomly generated arrays. The arrays 
+								contain a mix of custom and found gifs sourced from tumblr and 
+								are set to music. the output is autonomous, generative, art 
+								made possible through curation & code.
+							</div>
+						</div>
+					</td>
+					<td>
+						<button id = "walk"></button>
+						<figure id = "walkpic">
+							<img src = "images/event7.jpg" alt = "CNY Deco"/>
+						</figure>
+						
+					</td>
+					<td>
+						<button id = "walk2"></button>
+						<figure id = "walkpic2">
+							<img src = "images/event8.jpg" alt = "Collage for 5+"/>
+						</figure>
+					</td>
+				</tr>
+				<tr>
+					<th colspan = 4><b>WEEKLY'S BEST WORKSHOPS</b></th>
+				</tr>
+				<tr>
+					<td>
+						<button id = "walk3"></button>
+						<figure id = "walkpic3">
+							<img src = "images/event9.jpg" alt = "Modern Calligraphy"/>
+						</figure>
+					</td>
+					<td>
+						<figure>
+							<img src = "images/event10.jpg" alt = "Acrylic Making"/>
+						</figure>
+					</td>
+					<td>
+						<figure>
+							<img src = "images/event11.jpg" alt = "Bontanical Inks"/>
+						</figure>
+						<div id = "tabs3">
+							<ul>
+								<li><a href = "#tab5"> Metaphor </a></li>
+								<li><a href = "#tab6"> Figurative Works </a></li>
+								<li><a href = "#tab7"> Exposure </a></li>
+							</ul>
+							<div id = "tab5">
+								This work explores the form and metaphor of lines as it relates to the 
+								ever-progressing and linear nature of our lives. Through the use of visual, 
+								movement and sound, the work explores the temporal and fragile nature of our 
+								lives as individuals taking part in a collective/codependent existence.
+							</div>
+							<div id = "tab6">
+								Liberated from detail, these paintings expose moments of everyday 
+								life that tap into the viewer’s mind. Complementing the 
+								expressiveness of the figurative works are the artist's simplified 
+								abstractions of shape, color and the containment of light.
+							</div>
+							<div id = "tab7">
+								My paintings expose the duality of skill and awkwardness; 
+								generating tension between craftmanship and naivete. They 
+								suggest instances of real life experience; however time has 
+								impaired the ability to fully recollect. Creativity and innovation 
+								replaces this disconnect allowing room to fabricate new meaning.
+							</div>
+						</div>
+					</td>
+					<td>
+						<button id = "walk4"></button>
+						<figure id = "walkpic4">
+							<img src = "images/event12.jpg" alt = "Fashion Life"/>
+						</figure>
+					</td>
+				</tr>
+			</table>
+			<div class = "footer">
+				<br><br>2019 &copy ArtWork Creative Pte. Ltd. (incorporated in Singapore). Thank you for supporting local business.
+			</div>
+		</div>
+	</body>
+</html>

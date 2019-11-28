@@ -1,0 +1,257 @@
+/*
+Name: Nur Suhaira Bte Badrul Hisham
+UOW ID: 5841549
+Assignment 2 Task 5
+*/
+
+/* body */
+.background
+{
+	background-color: beige;
+}
+
+/* web banner */
+.banner 
+{ 
+	font-weight: bold;
+	font-style: italic; 
+	font-family: lucida; 
+	font-size: 50px;
+	background-color: white;
+	text-align: left;
+}
+
+/* company logo */
+.logo
+{
+	position: relative;
+	top: 5px;
+	left: 5px;
+}
+
+.tooltip
+{
+	display: inline-block;
+	position: relative;
+	border: 5px dotted black;
+}
+
+.tooltip .tooltiptext
+{
+	visibility: hidden;
+	background: black;
+	color: white;
+	text-align: center;
+	padding: 5px;
+}
+
+.tooltip:hover .tooltiptext
+{
+	visibility: visible;
+	opacity: 1;
+}
+
+.tooltip .tooltiptext:after
+{
+	content = "";
+}
+
+#artbtn
+{
+	background-image: url("images/art.jpg");
+	background-size: 120%;
+    background-position: 40%;	
+    width: 110px;
+    height: 90px;
+	border-radius: 100px;
+	font-family: lucida;
+	font-size: 22px;
+	color: white;
+}
+
+#effbtn
+{
+	background-image: url("images/run.jpg");
+	background-size: 90%;
+    background-position: 70%;	
+    width: 100px;
+    height: 80px;
+	border-radius: 100px;
+}
+
+#exbtn, #bouncebtn, #pulbtn, #shakebtn
+{
+	background-image: url("images/toggle.jpg");
+	background-size: 120%;
+    background-position: 50%;	
+    width: 100px;
+    height: 80px;
+	border-radius: 100px;
+}
+
+/* promo */
+.promo
+{  
+	font-family: lucida; 
+	font-size: 15px;
+	text-align: center;
+	background-color: pink;
+	color: brown;
+}
+
+.promoX 
+{
+    font-size: 50px; 
+	background-color: black; 
+	color: white;
+	font-family: arial;
+}
+
+#promobtn
+{
+	background-image: url("images/promobtn.jpg");
+	background-size: 95%;
+    background-position: 50%;	
+    width: 110px;
+    height: 90px;
+	border-radius: 100px;
+	font-family: lucida;
+	font-size: 20px;
+}
+
+#arcbtn
+{
+	background-image: url("images/archive.png");
+	background-size: 160%;
+    background-position: 40%;	
+    width: 110px;
+    height: 90px;
+	border-radius: 100px;
+	font-family: lucida;
+	font-size: 20px;
+}
+
+#walk, #walk2, #walk3, #walk4
+{
+	background-image: url("images/walk.jpg");
+	background-size: 45%;
+    background-position: 50%;	
+    width: 150px;
+    height: 120px;
+	border-radius: 100px;
+	font-family: lucida;
+	font-size: 35px;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+/* image gallery using a table */
+table 
+{
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th
+{
+	border: solid;
+	border-color: black;
+	font-style: times new roman;
+	font-size: 25px;
+	background-color: brown;
+	color: white;
+	text-align: left;
+}
+
+.th2
+{
+	border-width : 10px;
+	border-color: grey;
+	font-style: times new roman;
+	font-size: 40px;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+td 
+{
+	border: solid;
+	padding: 8px;
+	font-style: arial;
+	font-size: 20px;
+	border-bottom: 1px solid #beige;
+	text-align: left;
+}
+
+.td2 
+{
+    border-width : 10px;
+    border-color : grey;
+    background-color : #cedc98;
+    color : black;
+}
+
+figure
+{
+	display: inline-block;
+	width: 90px;
+	height: 150px;
+}
+
+p
+{
+	text-align: left;
+	font-size: 20px;
+	background-color: orange;
+	color: white;
+}
+
+.ui-menu 
+{ 
+	width: 90px; 
+}
+
+#menu
+{
+	font-size: 25px;
+	color: brown;
+	font-family: lucida;
+	background-color: #40e0d0;
+}
+
+#tabs, #tabs2, #tabs3
+{
+	color: white;
+	background-color: #40e0d0;
+	font-family: sans-serif;
+	font-size: 15px;
+}
+
+ol
+{
+	list-style-type: upper-roman;
+}
+
+label
+{
+	display: inline-block;
+    width: 5em;
+}
+
+.highlight
+{
+	background-color: brown;
+	color: white;
+}
+
+/* footer */
+.footer
+{
+	font-style: comic sans;
+	font-size: 20px;
+	text-align: center;
+}

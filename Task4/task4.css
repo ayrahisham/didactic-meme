@@ -1,0 +1,92 @@
+/*
+Name: Nur Suhaira Bte Badrul Hisham
+UOW ID: 5841549
+Assignment 2 Task 4
+*/
+
+/* body */
+.background
+{
+	background-image: url("images/grass.jpg");
+}
+
+/* web banner */
+.banner 
+{ 
+	font-weight: bold;
+	font-style: italic; 
+	font-family: lucida; 
+	font-size: 50px;
+	background-color: white;
+	text-align: left;
+}
+
+/* company logo */
+.logo
+{
+	position: relative;
+	top: 5px;
+	left: 5px;
+}
+
+/* image gallery using a table */
+table 
+{
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th
+{
+	font-family: lucida; 
+	font-size: 30px;
+	text-align: center;
+	background-color: orange;
+	color: white;
+}
+
+td 
+{
+	padding: 8px;
+	font-style: arial;
+	font-size: 20px;
+	border-bottom: 1px solid #beige;
+	text-align: left;
+}
+
+#walk
+{
+	background-image: url("images/walk.jpg");
+	background-size: 70%;
+    background-position: 50%;	
+    width: 150px;
+    height: 120px;
+	border-radius: 100px;
+	font-family: lucida;
+	font-size: 35px;
+}
+
+#stop
+{
+	background-image: url("images/stop.jpg");
+	background-size: 85%;
+    background-position: 70%;	
+    width: 150px;
+    height: 120px;
+	border-radius: 100px;
+	font-family: lucida;
+	font-size: 35px;
+}
+
+#dog
+{
+	position: relative;
+}
+
+/* footer */
+.footer
+{
+	font-style: comic sans;
+	font-size: 20px;
+	text-align: center;
+}
